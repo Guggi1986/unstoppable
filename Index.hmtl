@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<title>Meine Webseite</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="logo.png" alt="Logo">
+		</div>
+		<div class="connect-wallet">
+			<button class="lang" data-lang="en" data-lang-key="btnConnectWallet">Connect Wallet</button>
+		</div>
+	</header>
+	<section class="content">
+		<div class="coffee-animation">
+			<img src="svgs/kaffee-animation.svg" alt="Kaffee Animation">
+		</div>
+		<div class="coffee-donation">
+			<h2 class="lang" data-lang-key="donateText">Spende mir einen Kaffee</h2>
+			<p class="lang" data-lang-key="donateDesc">Hier kannst du mir einen Kaffee spenden.</p>
+			<button class="lang-btn" data-lang="en" data-lang-key="donateBtn">Spenden</button>
+		</div>
+	</section>
+	<footer>
+		<div class="social-media">
+			<a href="#">Facebook</a>
+			<a href="#">Twitter</a>
+			<a href="#">Instagram</a>
+		</div>
+		<div class="copyright">
+			<p>&copy; 2023 Meine Webseite</p>
+		</div>
+	</footer>
+	<script src="language-switcher.js"></script>
+</body>
+</html>
